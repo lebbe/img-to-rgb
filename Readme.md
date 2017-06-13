@@ -1,6 +1,6 @@
 # image to rgb
 
-This simple-to-use command lind tool makes you convert image files to RGB values.
+This simple-to-use command line tool makes you convert image files to RGB values.
 
 
 It is pretty easy to use:
