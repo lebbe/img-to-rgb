@@ -1,0 +1,20 @@
+{
+  "name": "img-to-rgb",
+  "version": "1.0.0",
+  "description": "Converts image files to a string of RGB values",
+  "main": "index.js",
+  "bin": {"img-to-rgb": "./index.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "convert",
+    "rgb"
+  ],
+  "author": "bruce",
+  "license": "MIT",
+  "dependencies": {
+    "get-pixels": "^3.3.0"
+  }
+}
