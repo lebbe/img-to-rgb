@@ -45,8 +45,6 @@ getPixels(args[0], function(err, pixels) {
   }
 })
 
-// TODO: not taking alpha channel into account. Pretend that background are some
-// given color (white by default) and compute the "real" RGB based on that
 function reducePixel(pixel) {
   var alpha = pixel[3] / 255
   var r, g, b
